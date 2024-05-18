@@ -6,9 +6,13 @@ function main() {
     button1.setAttribute("id", "button1");
     button2.setAttribute("id", "button2");
     const contentDiv = document.getElementById("content");
+    contentDiv.appendChild(button1);
     //        <button id = "button1"></button>
     //        <button id = "button2"></button>
-
+    contentDiv.innerHTML = "";
+    contentDiv.style.justifyContent = "center";
+    //contentDiv.style.backgroundImage = 
+    
 }
 var refresh = false;
 // function refresh(){

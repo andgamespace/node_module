@@ -1,3 +1,9 @@
 *{
+	background-color: rgb(108,142,161);
+}
+button{
 	flex: auto;
+	width: 8em;
+	height: 3em;
+	justify-content: center;
 }

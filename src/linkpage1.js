@@ -9,26 +9,19 @@ export function loadLink1(){
     link1Text.setAttribute('class', 'menu-page');
     //link1Text.innerText = "/{}/";
     contentDiv.appendChild(link1Text);
-    const foodItems = [
-        "Apple",
-        "Banana",
-        "Orange",
-        "Bread",
-        "Cheese",
-        "Rice",
-        "Pasta",
-        "Tomato",
-        "Potato",
-        "Chicken"
-      ];
-    foodItems.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        ul.appendChild(li);
-    });
-    contentDiv.appendChild(ul);
-    
-    var menuItems
-    //contentDiv.style.setProperty("background-color", "black");
-  
+    var foodItems = document.createElement('p');
+    foodItems.innerText = '\n Apple \n Banana \n Orange \n Bread \n Cheese \n Rice';
+        // "Apple",
+        // "Banana",
+        // "Orange",
+        // "Bread",
+        // "Cheese",
+        // "Rice",
+        // "Pasta",
+        // "Tomato",
+        // "Potato",
+        // "Chicken"
+    contentDiv.appendChild(foodItems);
+    foodItems.style.justifyContent('center');
+      
 }

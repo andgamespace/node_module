@@ -5,7 +5,7 @@ export function loadAboutPage(){
     //contentDiv2.setAttribute("id", "contentDiv2");
     //contentDiv.style.setProperty('color', 'blue');
     var aboutHeader = document.createElement('h1');
-    aboutHeader.style.setproperty('font-size', '20px')
+    //aboutHeader.style.setproperty('font-size', '20px')
     var aboutText = document.createElement("p");
     aboutText.setAttribute('class', 'about-page');
     aboutHeader.setAttribute('class', 'about-page')

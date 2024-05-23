@@ -5,5 +5,16 @@ button{
 	flex: auto;
 	width: 8em;
 	height: 3em;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-block: 1em;
+
 }
+#content{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+/* #container{
+
+} */
